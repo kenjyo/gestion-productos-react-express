@@ -1,0 +1,94 @@
+/* ===== FORM ===== */
+.form {
+  max-width: 320px;
+  margin: 60px auto;
+  padding: 35px 25px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+
+  font-family: Arial, sans-serif;
+  color: #333;
+
+  /* 🔥 SOMBRA */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== TITLE ===== */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+
+  font-size: 22px;
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+/* ===== FIELDS ===== */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.field label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;   /* 🔥 negrita */
+}
+
+.field input {
+  padding: 11px;
+  font-size: 14px;
+  font-family: inherit;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #f0f6ff;
+}
+
+/* ===== ACTIONS (fila) ===== */
+.actions {
+  display: flex;
+  justify-content: flex-end;  /* 🔥 los manda a la derecha */
+  gap: 10px;                  /* 🔥 separación entre ellos */
+  margin-top: 25px;
+}
+
+/* ===== BOTONES ===== */
+.btn {
+  padding: 10px 16px;
+  font-size: 14px;
+
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* PRIMARY */
+.btn.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #1e40af;
+}
+
+.btn.secondary {
+  background: #6b7280;   /* gris medio */
+  color: white;
+
+  border: none;
+}
+
+.btn.secondary:hover {
+  background: #4b5563;
+}

@@ -1,0 +1,35 @@
+/* CONTENEDOR */
+.page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: Arial;
+}
+
+/* TÍTULO CENTRADO */
+.page-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+/* ZONA DEL BOTÓN */
+.page-actions {
+  margin-bottom: 15px;
+}
+
+/* BOTÓN CREAR */
+.btn-create {
+  background: #16a34a;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-create:hover {
+  background: #15803d;
+}
