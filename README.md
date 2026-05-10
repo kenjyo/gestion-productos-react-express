@@ -7,11 +7,14 @@ Aplicación web CRUD desarrollada con React en el frontend y Express.js en el ba
 
 ## Capturas del proyecto
 
-> (Aquí insertas tus imágenes del sistema funcionando)
+### Lista de productos
+![Lista de productos](./capturas/lista.png)
 
-- Lista de productos
-- Formulario de registro
-- Edición de productos
+### Registro de producto
+![Formulario de registro](./capturas/crear.png)
+
+### Edición de producto
+![Formulario de edición](./capturas/editar.png)
 
 ---
 
